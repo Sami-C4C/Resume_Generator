@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+{% include 'resume_details/header.html' %}
+
+<main class="container">
+    <div class="row my-3">
+        <div class="col-md-6">
+            <img src="https://marketplace.canva.com/EAD7WY_6Ncs/1/0/1131w/canva-navy-blue-and-black-professional-resume-uLR8G4DSbAs.jpg"
+                 alt="Resume Image" class="img-fluid resume-img">
+        </div>
+        <div class="col-md-6 mt-5"> <!-- I've added mt-5 here -->
+            <h1>Welcome to CV Generator</h1>
+            <p>This website helps you to build and manage resumes.</p>
+            <p>Build amazing resume to get your best career chances. </p>
+
+        </div>
+    </div>
+</main>
+{% include 'resume_details/footer.html' %}
+
+</body>
+</html>
