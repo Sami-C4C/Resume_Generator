@@ -6,5 +6,6 @@ Resume Generator Project to build and manage your Resume for best career chances
 
 <br/>
 
-![Screenshot from 2023-06-14 19-28-54](https://github.com/Sami-C4C/Resume_Generator/assets/101250244/5c795cb7-3f7c-419f-bba9-e042ca566f6b)
+
+![Screenshot from 2023-06-14 19-34-09](https://github.com/Sami-C4C/Resume_Generator/assets/101250244/e6435f61-0da9-4f85-acd9-d793e71ae6a2)
 
